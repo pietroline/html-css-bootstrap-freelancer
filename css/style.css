@@ -13,6 +13,11 @@
     background-color: rgba(0, 0, 255, 0.5);
 }
 
+    .debug main .ms_background_interno {
+        height: 200px;
+        background-color: #c04b63;
+    }
+
 .debug main .sect2.ms_background{
     height: 600px;
     background-color: rgba(125, 0, 0, 0.5);
