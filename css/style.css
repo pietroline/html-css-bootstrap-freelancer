@@ -1,0 +1,9 @@
+.debug header .ms_background{
+    height: 80px;
+    background-color: rgba(255, 0, 0, 0.7);
+}
+
+.debug .jumbotron .ms_background{
+    height: 400px;
+    background-color: rgba(0, 255, 0, 0.5);
+}
