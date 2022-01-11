@@ -1,64 +1,74 @@
-.debug header .ms_background{
+.debug .ms_bg_header{
     height: 80px;
-    background-color: rgba(255, 0, 0, 0.7);
+    background-color: #2e4050;
 }
 
-.debug .jumbotron .ms_background{
+    .ms_bg_yellow{
+        background-color: yellow;
+        height: 60px;
+    }
+
+    .ms_bg_green{
+        background-color: green;
+        height: 60px;
+    }
+
+.debug .ms_bg_jumbotron{
     height: 400px;
-    background-color: rgba(0, 255, 0, 0.5);
+    background-color: #00bb9c;
 }
 
-.debug main .sect1.ms_background {
+/* .debug main .sect2.ms_background {
     height: 1500px;
-    /* background-color: rgba(0, 0, 255, 0.5); */
-}
+    background-color: rgba(0, 0, 255, 0.5);
+} */
 
-    .debug main .ms_background_interno-1 {
+    .debug main .ms_bg_interno-1 {
         height: 200px;
         background-color: #c04b63;
     }
 
-    .debug main .ms_background_interno-2 {
+    .debug main .ms_bg_interno-2 {
         height: 200px;
         background-color: #00a3b3;
     }
 
-    .debug main .ms_background_interno-3 {
+    .debug main .ms_bg_interno-3 {
         height: 200px;
         background-color: #1b1616;
     }
 
-    .debug main .ms_background_interno-4 {
+    .debug main .ms_bg_interno-4 {
         height: 200px;
         background-color: #0083bc;
     }
 
-    .debug main .ms_background_interno-5 {
+    .debug main .ms_bg_interno-5 {
         height: 200px;
         background-color: #183caf;
     }
 
-    .debug main .ms_background_interno-6 {
+    .debug main .ms_bg_interno-6 {
         height: 200px;
         background-color: #cdb0a3;
     }
 
-.debug main .sect2.ms_background{
+.debug main .sect3.ms_background{
     height: 600px;
-    background-color: rgba(125, 0, 0, 0.5);
+    background-color: #00bb9c;
 }
 
-.debug main .sect3.ms_background{
+.debug main .sect4.ms_background{
     height: 500px;
     background-color: rgba(0, 125, 0, 0.5);
 }
 
 .debug footer .ms_background-1{
     height: 300px;
-    background-color: rgba(255, 255, 0, 0.5);
+    background-color: #3a556b;
 }
 
 .debug footer .ms_background-2{
     height: 100px;
-    background-color: rgba(125, 125, 0, 0.5);
+    background-color: #2e4050;
 }
