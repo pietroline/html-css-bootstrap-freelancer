@@ -8,7 +8,17 @@
     background-color: rgba(0, 255, 0, 0.5);
 }
 
-.debug main .ms_background{
+.debug main .sect1.ms_background {
     height: 1000px;
     background-color: rgba(0, 0, 255, 0.5);
+}
+
+.debug main .sect2.ms_background{
+    height: 600px;
+    background-color: rgba(125, 0, 0, 0.5);
+}
+
+.debug main .sect3.ms_background{
+    height: 500px;
+    background-color: rgba(0, 125, 0, 0.5);
 }
