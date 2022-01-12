@@ -33,25 +33,27 @@
 
         <main>
 
-            <section class="sect1 container-fluid ms_bg_jumbotron">
-                <div class="row row-cols-1 py-4">
-                    <div class="col">
-                        <div class="text-uppercase text-white d-flex flex-column align-items-center"> <!--col content-->
-                            <div class="container_img_avatar">
-                                <img class="w-100" src="img/avatar.svg" alt="Img avatar">
+            <!-- inizio jumbotron -->
+                <section id="jumbotron" class="sect1 container-fluid ms_bg_jumbotron">
+                    <div class="row row-cols-1 py-4">
+                        <div class="col">
+                            <div class="text-uppercase text-white d-flex flex-column align-items-center"> <!--col content-->
+                                <div class="container_img_avatar">
+                                    <img class="w-100" src="img/avatar.svg" alt="Img avatar">
+                                </div>
+                                <h1 class="my-3">start bootstrap</h1>
+                                <i class="fs-1 bi bi-star-fill"></i>
+                                <h3 class="my-3">Graphic artist - web designer - illustrotor</h3>
                             </div>
-                            <h1 class="my-3">start bootstrap</h1>
-                            <i class="fs-1 bi bi-star-fill"></i>
-                            <h6 class="my-3">Graphic artist - web designer - illustrotor</h6>
                         </div>
                     </div>
-                </div>
-            </section>
+                </section>
+            <!-- fine jumbotron -->
 
-            <section class="sect2 container-md my-5 ms_background">
+            <section id="portfolio" class="sect2 container-md my-5 ms_background">
 
-                <div class="row row-cols-1">
-                    <div class="col">
+                <div class="row">
+                    <div class="col-12">
                         <div class="my-2 d-flex flex-column align-items-center"> <!--col content-->
                             <div class="h1 text-uppercase">Portfolio</div>
                             <i class="fs-1 bi bi-star-fill"></i>
@@ -59,40 +61,40 @@
                     </div>
                 </div>
 
-                <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4">
 
                     <div class="col">
-                        <div class="my-2"> <!--col content-->
+                        <div class=""> <!--col content-->
                             <img class="w-100 rounded-3 " src="img/cabin.png" alt="img cabin">
                         </div>
                     </div>
 
                     <div class="col">
-                        <div class="my-2"> <!--col content-->
+                        <div class=""> <!--col content-->
                             <img class="w-100 rounded-3 " src="img/cake.png" alt="img cake">
                         </div>
                     </div>
     
                     <div class="col">
-                        <div class="my-2"> <!--col content-->
+                        <div class=""> <!--col content-->
                             <img class="w-100 rounded-3 " src="img/circus.png" alt="img circus">
                         </div>
                     </div>
 
                     <div class="col">
-                        <div class="my-2"> <!--col content-->
+                        <div class=""> <!--col content-->
                             <img class="w-100 rounded-3 " src="img/game.png" alt="img game">
                         </div>
                     </div>
     
                     <div class="col">
-                        <div class="my-2"> <!--col content-->
+                        <div class=""> <!--col content-->
                             <img class="w-100 rounded-3 " src="img/safe.png" alt="img safe">
                         </div>
                     </div>
 
                     <div class="col">
-                        <div class="my-2"> <!--col content-->
+                        <div class=""> <!--col content-->
                             <img class="w-100 rounded-3 " src="img/submarine.png" alt="img submarine">
                         </div>
                     </div>
@@ -102,29 +104,65 @@
                 
             </section>
 
-            <section class="sect3 container-fluid ms_background">
+            <section id="about" class="sect3 container-fluid ms_background">
+
                 <div class="row">
                     <div class="col">
                         <div class="py-5 text-white d-flex flex-column align-items-center"> <!--col content-->
-                            <div class="h4 text-uppercase">about</div>
+                            <div class="h2 text-uppercase">about</div>
                             <i class="fs-4 bi bi-star-fill"></i>
-                            <div> <!--contenitore paragrafi-->
-                                <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, Css, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
-                                <p>Whether you're a student looking to showcase you work, a professional looking to attract client, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
-                            </div>
                         </div>
                     </div>
                 </div>
+                
+                <div class="row row-cols-1 text-white">
+                    <div class="col">
+                        <div class=""> <!--col content-->
+                            <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, Css, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class=""> <!--col content-->
+                            <p>Whether you're a student looking to showcase you work, a professional looking to attract client, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+                        </div>
+                    </div>
+                </div>
+
             </section>
 
-            <section class="sect4 container-md my-5 ms_background">
+            <section id="contact_me" class="sect4 container-md my-5 ms_background">
 
             </section>
         </main>
         
-        <footer class="container-fluid gx-0">
-            <div class="ms_background-1"></div>
-            <div class="ms_background-2"></div>
+        <footer>
+            <div class="ms_footer_sup">
+                <div class="container">
+                    <div class="row text-white">
+
+                        <div class="col-12 col-lg-4">
+                            Location
+                        </div>
+
+                        <div class="col-12 col-lg-4">
+                            Around the web
+                        </div>
+
+                        <div class="col-12 col-lg-4">
+                            Abaout freelancer
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ms_footer_inf">
+                <div class="row text-white">
+                    <div class="col-12">
+                        <p>Copyright (simbolo) Your Website 2019</p>
+                    </div>
+                </div>
+            </div>
         </footer>
 
         <!-- javascript bootstrap -->

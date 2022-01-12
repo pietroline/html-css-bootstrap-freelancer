@@ -13,7 +13,7 @@
         height: 60px;
     }
 
-.debug .ms_bg_jumbotron{
+.ms_bg_jumbotron{
     background-color: #00bb9c;
 }
 
@@ -21,13 +21,7 @@
     width: 200px;
 }
 
-/* .debug main .sect2.ms_background {
-    height: 1500px;
-    background-color: rgba(0, 0, 255, 0.5);
-} */
-
-.debug main .sect3.ms_background{
-    height: 600px;
+.sect3.ms_background{
     background-color: #00bb9c;
 }
 
@@ -36,12 +30,12 @@
     background-color: rgba(0, 125, 0, 0.5);
 }
 
-.debug footer .ms_background-1{
+.debug footer .ms_footer_sup{
     height: 300px;
     background-color: #3a556b;
 }
 
-.debug footer .ms_background-2{
+.debug footer .ms_footer_inf{
     height: 100px;
     background-color: #2e4050;
 }
