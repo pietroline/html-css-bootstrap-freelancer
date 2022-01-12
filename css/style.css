@@ -28,7 +28,7 @@
 
 .ms_hover i{
     display: none;
-    font-size: 200px;
+    font-size: 100px;
     color: white;
     left: 50%;
     top: 50%;
@@ -44,12 +44,12 @@
     background-color: #00bb9c;
 }
 
-.btn.ms_btn_download{
+.ms_btn_download{
     color: #fff;
     border: 1px solid #fff;
 }
 
-.btn.ms_btn_download:hover{
+.ms_btn_download:hover{
     color: #000;
     background-color: #fff;
     border-color: #fff;  
@@ -69,17 +69,17 @@
     margin: 10px;
 }
 
-.form-control.ms_input_box{
+.ms_input_box{
     border-top: none;
     border-left: none;
     border-right: none;
 }
 
-.form-control.ms_height_textarea{
+.ms_height_textarea{
     height: 200px;
 }
 
-.btn.ms_btn_send{
+.ms_btn_send{
     color: #fff;
     background-color: #00bb9c;
     border-color: #00bb9c;
@@ -101,4 +101,10 @@
 
 .ms_c_author{
     color: #00bb9c;
+}
+
+.ms_c_author:hover{
+    color: #00bb9c;
+    text-decoration: underline;
+    cursor: pointer;
 }
