@@ -21,8 +21,38 @@
     width: 200px;
 }
 
+.ms_hover:hover img{
+    filter: brightness(0.5);
+    transition: 0.5s ease-in;
+}
+
+.ms_hover i{
+    display: none;
+    font-size: 200px;
+    color: white;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    filter: brightness(0.8);
+}
+
+.ms_hover:hover i{
+    display: inline-block;
+}
+
 #about.ms_background{
     background-color: #00bb9c;
+}
+
+.btn.ms_btn_download{
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.btn.ms_btn_download:hover{
+    color: #000;
+    background-color: #fff;
+    border-color: #fff;  
 }
 
 .ms_bar_black{

@@ -22,10 +22,10 @@
 
         <header class="container-fluid ms_bg_header">
             <div class="row">
-                <div class="col-11 col-md-6 my-2">
+                <div class="col-11 col-sm-6 my-2">
                     <div class="ms_bg_yellow"></div>
                 </div>
-                <div class="col-1 col-md-6 my-2">
+                <div class="col-1 col-sm-6 my-2">
                     <div class="ms_bg_green"></div>
                 </div>
             </div>
@@ -54,7 +54,7 @@
                 </section>
             <!-- fine jumbotron -->
 
-            <section id="portfolio" class="sect2 container-md my-5 ms_background">
+            <section id="portfolio" class="sect2 container-sm my-5 ms_background">
 
                 <div class="row">
                     <div class="col-12">
@@ -69,41 +69,47 @@
                     </div>
                 </div>
 
-                <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4">
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4">
 
-                    <div class="col">
+                    <div class="col ms_hover position-relative">
                         <div class=""> <!--col content-->
-                            <img class="w-100 rounded-3 " src="img/cabin.png" alt="img cabin">
+                            <img class="w-100 rounded-3" src="img/cabin.png" alt="img cabin">
+                            <i class="bi bi-plus-lg position-absolute"></i>
                         </div>
                     </div>
 
-                    <div class="col">
+                    <div class="col ms_hover position-relative">
                         <div class=""> <!--col content-->
                             <img class="w-100 rounded-3 " src="img/cake.png" alt="img cake">
+                            <i class="bi bi-plus-lg position-absolute"></i>
                         </div>
                     </div>
     
-                    <div class="col">
+                    <div class="col ms_hover position-relative">
                         <div class=""> <!--col content-->
                             <img class="w-100 rounded-3 " src="img/circus.png" alt="img circus">
+                            <i class="bi bi-plus-lg position-absolute"></i>
                         </div>
                     </div>
 
-                    <div class="col">
+                    <div class="col ms_hover position-relative">
                         <div class=""> <!--col content-->
                             <img class="w-100 rounded-3 " src="img/game.png" alt="img game">
+                            <i class="bi bi-plus-lg position-absolute"></i>
                         </div>
                     </div>
     
-                    <div class="col">
+                    <div class="col ms_hover position-relative">
                         <div class=""> <!--col content-->
                             <img class="w-100 rounded-3 " src="img/safe.png" alt="img safe">
+                            <i class="bi bi-plus-lg position-absolute"></i>
                         </div>
                     </div>
 
-                    <div class="col">
+                    <div class="col ms_hover position-relative">
                         <div class=""> <!--col content-->
                             <img class="w-100 rounded-3 " src="img/submarine.png" alt="img submarine">
+                            <i class="bi bi-plus-lg position-absolute"></i>
                         </div>
                     </div>
 
@@ -112,13 +118,13 @@
                 
             </section>
 
-            <section id="about" class="container-fluid ms_background">
+            <section id="about" class="container-fluid ms_background py-4 text-center">
 
                 <div class="row">
                     <div class="col">
-                        <div class="py-5 text-white d-flex flex-column align-items-center"> <!--col content-->
+                        <div class="text-white d-flex flex-column align-items-center"> <!--col content-->
                             <div class="h2 text-uppercase">about</div>
-                            <div class="d-flex justify-content-center align-items-center">
+                            <div class="d-flex justify-content-center align-items-center pb-2">
                                 <div class="ms_bar_white"></div>
                                 <i class="fs-5 bi bi-star-fill"></i>
                                 <div class="ms_bar_white"></div>
@@ -127,7 +133,7 @@
                     </div>
                 </div>
                 
-                <div class="row row-cols-1 text-white">
+                <div class="row row-cols-1 row-cols-sm-2 text-white w-75 m-auto text-start">
                     <div class="col">
                         <div class=""> <!--col content-->
                             <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, Css, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
@@ -140,6 +146,11 @@
                         </div>
                     </div>
                 </div>
+                
+                <button type="button" class="btn ms_btn_download">
+                    <i class="bi bi-download"></i>
+                    <span>Download</span>
+                </button>
 
             </section>
 
