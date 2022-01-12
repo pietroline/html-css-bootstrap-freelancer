@@ -47,6 +47,7 @@
     color: #000;
     background-color: #fff;
     border-color: #fff;  
+    transition: 0.5s ease-in;
 }
 
 .ms_bar_black{
@@ -83,6 +84,7 @@
     color: #fff;
     background-color: #009c82;
     border-color: #009c82;
+    transition: 0.5s ease-in;
 }
 
 .ms_bg_footer_sup{
