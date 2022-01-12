@@ -17,6 +17,10 @@
     background-color: #00bb9c;
 }
 
+.container_img_avatar{
+    width: 200px;
+}
+
 /* .debug main .sect2.ms_background {
     height: 1500px;
     background-color: rgba(0, 0, 255, 0.5);
