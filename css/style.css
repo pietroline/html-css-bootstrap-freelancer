@@ -1,17 +1,7 @@
-.debug .ms_bg_header{
+.ms_bg_header{
     height: 80px;
     background-color: #2e4050;
 }
-
-    .ms_bg_yellow{
-        background-color: yellow;
-        height: 60px;
-    }
-
-    .ms_bg_green{
-        background-color: green;
-        height: 60px;
-    }
 
 .ms_bg_jumbotron{
     background-color: #00bb9c;
