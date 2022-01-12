@@ -23,36 +23,6 @@
     background-color: rgba(0, 0, 255, 0.5);
 } */
 
-    .debug main .ms_bg_interno-1 {
-        height: 200px;
-        background-color: #c04b63;
-    }
-
-    .debug main .ms_bg_interno-2 {
-        height: 200px;
-        background-color: #00a3b3;
-    }
-
-    .debug main .ms_bg_interno-3 {
-        height: 200px;
-        background-color: #1b1616;
-    }
-
-    .debug main .ms_bg_interno-4 {
-        height: 200px;
-        background-color: #0083bc;
-    }
-
-    .debug main .ms_bg_interno-5 {
-        height: 200px;
-        background-color: #183caf;
-    }
-
-    .debug main .ms_bg_interno-6 {
-        height: 200px;
-        background-color: #cdb0a3;
-    }
-
 .debug main .sect3.ms_background{
     height: 600px;
     background-color: #00bb9c;
