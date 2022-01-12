@@ -25,6 +25,20 @@
     background-color: #00bb9c;
 }
 
+.ms_bar_black{
+    height: 2px;
+    width: 60px;
+    background-color: black;
+    margin: 10px;
+}
+
+.ms_bar_white{
+    height: 2px;
+    width: 60px;
+    background-color: white;
+    margin: 10px;
+}
+
 .form-control.ms_input_box{
     border-top: none;
     border-left: none;
