@@ -21,13 +21,30 @@
     width: 200px;
 }
 
-.sect3.ms_background{
+#about.ms_background{
     background-color: #00bb9c;
 }
 
-.debug main .sect4.ms_background{
-    height: 500px;
-    background-color: rgba(0, 125, 0, 0.5);
+.form-control.ms_input_box{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.form-control.ms_height_textarea{
+    height: 200px;
+}
+
+.btn.ms_btn_send{
+    color: #fff;
+    background-color: #00bb9c;
+    border-color: #00bb9c;
+}
+
+.btn.ms_btn_send:hover{
+    color: #fff;
+    background-color: #009c82;
+    border-color: #009c82;
 }
 
 .ms_bg_footer_sup{
