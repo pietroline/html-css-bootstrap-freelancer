@@ -30,12 +30,14 @@
     background-color: rgba(0, 125, 0, 0.5);
 }
 
-.debug footer .ms_footer_sup{
-    height: 300px;
+.ms_bg_footer_sup{
     background-color: #3a556b;
 }
 
-.debug footer .ms_footer_inf{
-    height: 100px;
+.ms_bg_footer_inf{
     background-color: #2e4050;
+}
+
+.ms_c_author{
+    color: #00bb9c;
 }
