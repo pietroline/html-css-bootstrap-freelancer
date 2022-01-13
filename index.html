@@ -25,33 +25,32 @@
 
                 <div class="container-md">
 
-                  <a class="navbar-brand text-uppercase fs-3 ms_text_hover" href="#">Start Bootstrap</a>
+                  <a class="navbar-brand text-uppercase fs-3 ms_text_hover text-white" href="#">Start Bootstrap</a>
 
-                  <div class="navbar-toggler">
+                  <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
                     <span class="navbar-toggler-icon"></span>
-                  </div>
+                  </button>
                   
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-md-0 text-uppercase fw-bolder">
-                      <li class="nav-item ">
-                        <a class="nav-link ms_text_hover" href="#">Portfolio</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                      </li>
-                    </ul>
-                    
-                  </div>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-md-0 text-uppercase fw-bolder">
+                        <li>
+                            <a class="ms_text_white" href="#">Portfolio</a>
+                        </li>
+                        <li>
+                            <a class="ms_text_white" href="#">About</a>
+                        </li>
+                        <li>
+                            <a class="ms_text_white" href="#">Contact</a>
+                        </li>
+                        </ul>
+                    </div>
 
                 </div>
 
             </nav>
         </header>
 
-        <main class="ms_bg_mt_80">
+        <main class="mt-5">
 
             <!-- inizio jumbotron -->
                 <section id="jumbotron" class="sect1 container-fluid ms_bg_jumbotron">
@@ -92,44 +91,68 @@
                 <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4">
 
                     <div class="col">
-                        <div class="ms_hover position-relative"> <!--col content-->
-                            <img class="w-100 rounded-3" src="img/cabin.png" alt="img cabin">
-                            <i class="bi bi-plus-lg position-absolute"></i>
+                        <div class="ms_hover"> <!--col content-->
+                            <div class="ms_contenitore">
+                                <div class="ms_layover">
+                                    <i class="a bi bi-plus-lg"></i>
+                                </div>
+                                <img class="w-100 rounded-3" src="img/cabin.png" alt="img cabin">
+                            </div>
                         </div>
                     </div>
 
                     <div class="col">
-                        <div class="ms_hover position-relative"> <!--col content-->
-                            <img class="w-100 rounded-3 " src="img/cake.png" alt="img cake">
-                            <i class="bi bi-plus-lg position-absolute"></i>
-                        </div>
-                    </div>
-    
-                    <div class="col">
-                        <div class="ms_hover position-relative"> <!--col content-->
-                            <img class="w-100 rounded-3 " src="img/circus.png" alt="img circus">
-                            <i class="bi bi-plus-lg position-absolute"></i>
+                        <div class="ms_hover"> <!--col content-->
+                            <div class="ms_contenitore">
+                                <div class="ms_layover">
+                                    <i class="a bi bi-plus-lg"></i>
+                                </div>
+                                <img class="w-100 rounded-3 " src="img/cake.png" alt="img cake">
+                            </div>
                         </div>
                     </div>
 
                     <div class="col">
-                        <div class="ms_hover position-relative"> <!--col content-->
-                            <img class="w-100 rounded-3 " src="img/game.png" alt="img game">
-                            <i class="bi bi-plus-lg position-absolute"></i>
-                        </div>
-                    </div>
-    
-                    <div class="col">
-                        <div class="ms_hover position-relative"> <!--col content-->
-                            <img class="w-100 rounded-3 " src="img/safe.png" alt="img safe">
-                            <i class="bi bi-plus-lg position-absolute"></i>
+                        <div class="ms_hover"> <!--col content-->
+                            <div class="ms_contenitore">
+                                <div class="ms_layover">
+                                    <i class="a bi bi-plus-lg"></i>
+                                </div>
+                                <img class="w-100 rounded-3 " src="img/circus.png" alt="img circus">
+                            </div>
                         </div>
                     </div>
 
                     <div class="col">
-                        <div class="ms_hover position-relative"> <!--col content-->
-                            <img class="w-100 rounded-3 " src="img/submarine.png" alt="img submarine">
-                            <i class="bi bi-plus-lg position-absolute"></i>
+                        <div class="ms_hover"> <!--col content-->
+                            <div class="ms_contenitore">
+                                <div class="ms_layover">
+                                    <i class="a bi bi-plus-lg"></i>
+                                </div>
+                                <img class="w-100 rounded-3 " src="img/game.png" alt="img game">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="ms_hover"> <!--col content-->
+                            <div class="ms_contenitore">
+                                <div class="ms_layover">
+                                    <i class="a bi bi-plus-lg"></i>
+                                </div>
+                                <img class="w-100 rounded-3 " src="img/safe.png" alt="img safe">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="ms_hover"> <!--col content-->
+                            <div class="ms_contenitore">
+                                <div class="ms_layover">
+                                    <i class="a bi bi-plus-lg"></i>
+                                </div>
+                                <img class="w-100 rounded-3 " src="img/submarine.png" alt="img submarine">
+                            </div>
                         </div>
                     </div>
 
@@ -196,7 +219,7 @@
                               <input type="text" placeholder="Name" class="form-control ms_input_box my-2" aria-describedby="emailHelp">
                               <input type="email" placeholder="Email Address" class="form-control ms_input_box my-2" aria-describedby="emailHelp">
                               <input type="text" placeholder="Phone Number" class="form-control ms_input_box my-2" aria-describedby="emailHelp">
-                              <textarea placeholder="Message" class="form-control ms_input_box ms_height_textarea my-2" aria-describedby="emailHelp"></textarea>
+                              <textarea  rows="10" placeholder="Message" class="form-control ms_input_box ms_height_textarea my-2" aria-describedby="emailHelp"></textarea>
                             </div>
                             
                             <button type="submit" class="btn btn-primary ms_btn_send">Send</button>
